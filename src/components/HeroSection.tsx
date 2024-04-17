@@ -13,10 +13,10 @@ function HeroSection() {
       />
 
       <div className="p-4 relative z-10 w-full text-center">
-        <h1 className="mt-20 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-blue-50 to-blue-400">
+        <h1 className="mt-20 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-blue-50 to-blue-400 tracking-tight">
           Master The Art Of Music
         </h1>
-        <p className="text-2xl mt-4 bg-clip-text text-transparent bg-gradient-to-b from-blue-50 to-blue-400">
+        <p className="text-2xl mt-4 bg-clip-text text-transparent bg-gradient-to-b from-blue-50 to-blue-400 tracking-tight text-wrap">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est nisi
           fugiat natus molestias adipisci fuga aliquam iusto expedita, quia et
           minus illo quidem accusantium in vel quae quisquam voluptatibus fugit.
