@@ -20,7 +20,7 @@ export default function RootLayout({
       <Analytics />
       <link rel="icon" href="/favicon.ico" />
       <body className={inter.className}>
-        <div className="relative w-full flex items-center justify-center p-2 ">
+        <div className="relative w-full flex items-center justify-center ">
           <Navbar />
         </div>
         {children}

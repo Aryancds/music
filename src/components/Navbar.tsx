@@ -19,8 +19,10 @@ function Navbar({ className }: { className?: string }) {
         <Menu setActive={setActive}>
           <div className="grid grid-cols-3 ">
             <div className="">
-              <div className="text-white text-2xl">
-                <PiMusicNoteSimpleBold />
+              <div className="text-black dark:text-black text-2xl">
+                <Link href={"/"}>
+                  <PiMusicNoteSimpleBold />
+                </Link>
               </div>
             </div>
 
