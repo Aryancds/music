@@ -21,7 +21,11 @@ function Navbar({ className }: { className?: string }) {
             <div className="">
               <div className="text-black dark:text-black text-2xl">
                 <Link href={"/"}>
-                  <PiMusicNoteSimpleBold />
+                  <img
+                    src="/logo.jpg"
+                    alt="Company Logo"
+                    className="h-6 w-auto rounded-full"
+                  ></img>
                 </Link>
               </div>
             </div>
