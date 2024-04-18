@@ -1,10 +1,10 @@
 "use client";
 
 import React, { useState } from "react";
-import { HoveredLink, Menu, MenuItem, ProductItem } from "./ui/navbar-menu";
+import { HoveredLink, Menu, MenuItem } from "./ui/navbar-menu";
 import { cn } from "@/utils/cn";
 import Link from "next/link";
-import { PiMusicNoteSimpleBold } from "react-icons/pi";
+import Image from "next/image"; // Import Image component
 
 function Navbar({ className }: { className?: string }) {
   const [active, setActive] = useState<string | null>(null);
@@ -21,11 +21,14 @@ function Navbar({ className }: { className?: string }) {
             <div className="">
               <div className="text-black dark:text-black text-2xl">
                 <Link href={"/"}>
-                  <img
+                  {/* Replace <img> with <Image> */}
+                  <Image
                     src="/logo.jpg"
                     alt="Company Logo"
+                    width={50} // Adjust width as needed
+                    height={50} // Adjust height as needed
                     className="h-6 w-auto rounded-full"
-                  ></img>
+                  ></Image>
                 </Link>
               </div>
             </div>
