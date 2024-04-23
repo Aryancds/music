@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Spotlight, Spotlightr } from "./ui/Spotlight";
+import { Spotlight } from "./ui/Spotlight";
 import { Button } from "./ui/moving-border";
 
 function HeroSection() {
