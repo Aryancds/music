@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   title: "Music school",
 };
 
+
 export default function RootLayout({
   children,
 }: Readonly<{
