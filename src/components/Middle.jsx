@@ -395,7 +395,7 @@ function Middle() {
     ];
 
     return (
-        <div className="flex flex-row items-center justify-center py-20 h-full md:h-auto dark:bg-black bg-teal-400 relative w-full">
+        <div className="flex flex-row items-center justify-center py-20 h-full md:h-auto bg-teal-400  dark:bg-black relative w-full">
             <div className="max-w-7xl mx-auto w-full relative overflow-hidden h-[20rem] md:h-[38rem] px-4">
                 <motion.div
                     initial={{
@@ -418,7 +418,8 @@ function Middle() {
 
                     </p> */}
                 </motion.div>
-                <div className="absolute w-full bottom-0 inset-x-0 h-40 bg-gradient-to-b pointer-events-none select-none from-transparent dark:to-teal-400 to-teal-400 z-40" />
+                <div className="absolute w-full bottom-0 inset-x-0 h-40 bg-gradient-to-b pointer-events-none select-none 
+                from-transparent to-teal-400  dark:from-transparent dark:to-black  z-40" />
                 <div className="absolute w-full -bottom-2 h-72 md:h-full z-10">
                     <World data={sampleArcs} globeConfig={globeConfig} />;
                 </div>

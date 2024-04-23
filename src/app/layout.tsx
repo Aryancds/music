@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="">
+    <html lang="en" className="dark">
       <Analytics />
       <link rel="icon" href="/favicon.ico" />
       <body className={inter.className}>
